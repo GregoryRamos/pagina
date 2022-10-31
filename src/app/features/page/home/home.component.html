@@ -1,0 +1,11 @@
+<h3 class="text-center">
+    Welcome to the <b>{{ title }}</b>!
+
+</h3><hr>
+
+<div class="row">
+    <div class="col col-3" *ngFor="let menu of menus">
+        <app-menu-card [menu]="menu"></app-menu-card>
+    </div>
+
+</div>
